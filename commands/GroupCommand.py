@@ -1,7 +1,6 @@
 from wpilib.command.commandgroup import CommandGroup
 
 from wpilib.command.waitcommand import WaitCommand
-from commands.setspeed import SetSpeed
 
 class GroupCommand(CommandGroup):
 

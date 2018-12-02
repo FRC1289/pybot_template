@@ -38,18 +38,21 @@ class PyBot(CommandBasedRobot):
         self.joystick = oi.getJoystick()
 
     def autonomousInit(self):
-        self.autonomousProgram.start()
+        pass
+        #self.autonomousProgram.start()
         
     #def autonomousPeriodic(self):
         #Scheduler.getInstance().run()
         
 
     def teleopInit(self):
-        if self.autonomousProgram is not None:
-            self.autonomousProgram.cancel()            
-        self.teleopProgram.start()
+        pass
+        #if self.autonomousProgram is not None:
+        #    self.autonomousProgram.cancel()            
+        #self.teleopProgram.start()
         
     def teleopPeriodic(self):
+        pass
         #Scheduler.getInstance().run()
         #if self.teleopProgram.isFinished():
             #self.logger.info('finished')
